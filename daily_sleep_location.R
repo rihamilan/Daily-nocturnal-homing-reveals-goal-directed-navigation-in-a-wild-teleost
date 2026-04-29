@@ -14,7 +14,6 @@ library(mgcv)
 library(ggplot2)
 
 
-con <-  dbConnect(drv = PostgreSQL(), dbname ="teridb", host="172.21.3.20", user= "teriuser", password = "t3r1us3r!")
 # getting positions for two selected pikeperch
 #select species
 species <- "pikeperch"
