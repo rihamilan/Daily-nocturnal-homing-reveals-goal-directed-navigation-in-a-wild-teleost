@@ -12,8 +12,6 @@ library(data.table)
 library(zoo)
 
 
-con <-  dbConnect(drv = PostgreSQL(), dbname ="teridb", host="172.21.3.20", user= "teriuser", password = "t3r1us3r!")
-
 data_3d <- data.table(read_csv("~/Teri/pikeperch_navigation/data/navigation_segments.csv"))
 full_data <- data.table(read_csv("~/Teri/pikeperch_navigation/data/ready_positions.csv"))
 
